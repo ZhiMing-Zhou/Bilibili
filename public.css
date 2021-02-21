@@ -1,0 +1,105 @@
+.common {
+  display: flex;
+  flex-direction: row;
+  height: 224px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+.common .left {
+  width: 710px;
+}
+.common .left header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.common .left header .l {
+  display: flex;
+  height: 36px;
+  line-height: 36px;
+}
+.common .left header .l .icon {
+  width: 36px;
+  height: 36px;
+  margin-right: 6px;
+}
+.common .left header .l .icon img {
+  width: 100%;
+  height: 100%;
+}
+.common .left header .l a {
+  color: #555050;
+  font-size: 12px;
+}
+.common .left header .l a .iconfont {
+  color: #F0361B;
+}
+.common .left header .l a.name {
+  font-size: 20px;
+  margin-right: 20px;
+  color: black;
+}
+.common .left header .l a:hover {
+  color: #00A1D6;
+  transition: all 0.2s;
+}
+.common .left header .r {
+  line-height: 36px;
+}
+.common .left header .r button {
+  background-color: white;
+  border: 1px solid #C0C0C0;
+  outline: none;
+  font-size: 12px;
+  margin-left: 8px;
+  height: 20px;
+  padding: 0 4px;
+  color: #505050;
+}
+.common .left header .r button:hover {
+  background-color: #F4F4F4;
+}
+.common .left .ext-box {
+  display: flex;
+  justify-content: space-between;
+  height: 172px;
+  flex-wrap: wrap;
+}
+.common .left .ext-box div.introduce {
+  width: 170px;
+}
+.common .left .ext-box div.introduce a {
+  color: black;
+}
+.common .left .ext-box div.introduce a:hover {
+  color: #00A1D6;
+  transition: all 0.2s;
+}
+.common .left .ext-box div.introduce a img {
+  height: 96px;
+  vertical-align: middle;
+}
+.common .left .ext-box div.introduce a > p.title {
+  height: 40px;
+  margin: 10px 0 8px 0;
+  padding-right: 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.common .left .ext-box div.introduce a > p.title span {
+  display: inline-block;
+  border: 1px solid #B2B2B2;
+  color: #B2B2B2;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-right: 8px;
+}
+.common .left .ext-box div.introduce a p.adv-name {
+  font-size: 12px;
+  color: #9999A6;
+}
+.common .right {
+  width: 265px;
+}
