@@ -334,11 +334,13 @@ ol {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
+  overflow: hidden;
 }
 .item .right a {
   width: 170px;
   height: 96px;
   position: relative;
+  margin-bottom: 10px;
   overflow: hidden;
 }
 .item .right a img {
@@ -731,4 +733,69 @@ ol {
   display: inline-block;
   margin-right: 15px;
   height: 24px;
+}
+@media screen and (min-width: 1550px) {
+  .w {
+    width: 1414px;
+    margin: 0 auto;
+  }
+  .item {
+    height: 242px;
+    margin-bottom: 40px;
+  }
+  .item .left {
+    width: 550px;
+  }
+  .item .right a {
+    width: 206px;
+    height: 116px;
+  }
+  #reportFirst .left {
+    width: 1070px;
+  }
+  #reportFirst .ext-box .introduce {
+    width: 206px;
+  }
+  #reportFirst .ext-box .introduce img {
+    height: 116px;
+  }
+  #reportFirst .right {
+    width: 320px;
+  }
+  .advertisement {
+    margin-bottom: 40px;
+  }
+  #broadcast .left {
+    width: 1070px;
+  }
+  #broadcast .ext-box {
+    height: 404px;
+  }
+  #broadcast .ext-box .introduce {
+    width: 206px;
+  }
+  #broadcast .ext-box .introduce img {
+    height: 116px;
+  }
+  #broadcast .right {
+    width: 320px;
+  }
+  #broadcast .right .tab-content .recommend a img {
+    width: 100%;
+  }
+  #anime .left {
+    width: 1070px;
+  }
+  #anime .ext-box {
+    height: 404px;
+  }
+  #anime .ext-box .introduce {
+    width: 206px;
+  }
+  #anime .ext-box .introduce img {
+    height: 116px;
+  }
+  #anime .right {
+    width: 320px;
+  }
 }

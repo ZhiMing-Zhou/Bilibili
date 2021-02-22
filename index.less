@@ -403,11 +403,13 @@ ol {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
+    overflow: hidden;
 
     a {
       width: 170px;
       height: 96px;
       position: relative;
+      margin-bottom: 10px;
       overflow: hidden;
 
       img {
@@ -776,7 +778,7 @@ ol {
 
 #footer {
   box-sizing: border-box;
-  
+
   background-color: #F6F9FA;
   padding: 30px 0;
 
@@ -853,46 +855,155 @@ ol {
       }
     }
 
-    .link_c{
+    .link_c {
       flex: 1;
       display: flex;
       align-items: center;
       justify-content: space-around;
-      div{
+
+      div {
         width: 56px;
         height: 85px;
-        img{
+
+        img {
           width: 100%;
         }
-        p{
+
+        p {
           text-align: center;
         }
       }
     }
   }
 
-  #qualify{
+  #qualify {
     height: 192px;
     margin-top: 30px;
     display: flex;
-    .partner{
+
+    .partner {
       width: 96px;
-      img{
+
+      img {
         width: 100%;
       }
+
       margin-right: 20px;
     }
-    .qualify_item{
+
+    .qualify_item {
       flex: 1;
-      p{
+
+      p {
         font-size: 12px;
         color: #999;
-        span{
+
+        span {
           display: inline-block;
           margin-right: 15px;
           height: 24px;
         }
       }
+    }
+  }
+}
+
+@media screen and (min-width:1550px){
+  .w {
+    width: 1414px;
+    margin: 0 auto;
+  }
+
+  .item {
+    height: 242px;
+    margin-bottom: 40px;
+
+    .left {
+      width: 550px;
+    }
+
+    .right {
+      a {
+        width: 206px;
+        height: 116px;
+      }
+    }
+  }
+
+  #reportFirst {
+    .left {
+      width: 1070px;
+    }
+
+    .ext-box {
+      .introduce {
+        width: 206px;
+
+        img {
+          height: 116px;
+        }
+      }
+    }
+
+    .right {
+      width: 320px
+    }
+  }
+
+  .advertisement{
+    margin-bottom: 40px;
+  }
+
+  #broadcast {
+    .left {
+      width: 1070px;
+    }
+
+    .ext-box {
+      height: 404px;
+      .introduce {
+        width: 206px;
+
+        img {
+          height: 116px;
+        }
+      }
+    }
+
+    .right {
+      width: 320px;
+      .tab-content{
+        .recommend{
+          a{
+            img{
+              width: 100%;
+            }
+          }
+        }
+        
+      } 
+    }
+
+  }
+
+  #anime {
+    .left {
+      width: 1070px;
+    }
+
+    .ext-box {
+      height: 404px;
+      .introduce {
+        width: 206px;
+
+        img {
+          height: 116px;
+        }
+      }
+    }
+
+    .right {
+      width: 320px
     }
   }
 }

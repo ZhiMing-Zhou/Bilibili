@@ -64,9 +64,11 @@
   justify-content: space-between;
   height: 172px;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 .common .left .ext-box div.introduce {
   width: 170px;
+  margin-bottom: 10px;
 }
 .common .left .ext-box div.introduce a {
   color: black;
@@ -76,8 +78,8 @@
   transition: all 0.2s;
 }
 .common .left .ext-box div.introduce a img {
+  width: 100%;
   height: 96px;
-  vertical-align: middle;
 }
 .common .left .ext-box div.introduce a > p.title {
   height: 40px;
